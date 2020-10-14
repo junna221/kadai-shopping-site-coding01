@@ -1,0 +1,121 @@
+body {
+  background-color: #ffffff;
+  margin: 0;
+  
+}
+
+header {
+  text-align: center;
+  .header_logo {
+    padding-top: 29px;
+    img {
+      width: 188px;
+      height: 55px;
+    }
+  }
+  .header_icon {
+    padding: 25px 0 25px 0;
+    img {
+      padding: 0 12.5px;
+      width: 48px;
+      height: 47px;
+    }
+  }
+}
+
+.wrapper{
+}
+  .header_slider{
+    img {
+      width: 100vw;
+    }
+  }
+
+
+  .new_items_title {
+    text-align: center;
+    img {
+      width: 194px;
+      height: 24px;
+      margin: 0 0 34px 0;
+    }
+  }
+  .contents_new_items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .new_items_contents_list1{
+    width: 49.38%;
+    height: 454px;
+    margin:auto;
+    margin-bottom: 3px;
+    background-color: #ffff33;
+  }
+  .new_items_contents_list2 {
+    text-align: center;
+    img {
+      width: 88.62%;
+      padding-top: 16px;
+    }
+    p {
+      width: 83.27%;
+      font-size: 22px;
+      line-height: 1.23;
+      letter-spacing: 0.06em;
+      padding: 12px 0 32px 0;
+      margin-left: 6.02%;
+      float: left;
+      font-family: "Hiragino Kaku Gothic Pro";
+    }
+  }
+
+
+.guide {
+  background-color: cornflowerblue;
+}
+
+.subcontents {
+  background-color: brown;
+}
+
+footer {
+  background-color: darkgreen;
+}
+
+
+@media (max-width:601px) {
+.img_pc {
+  display: none;
+  }
+}
+
+
+@media (min-width:600px) {
+
+  .img_sp {
+    display: none;
+}
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contents {
+    width: 70%;
+    order: 1;
+  }
+
+  .guide  {
+    width: 70%;
+    order: 3;
+  }
+
+  .subcontents  {
+    width: 23.2%;
+    margin: 0 0.2% 5%;
+    order: 2;
+    height: 1121px;
+    margin-left:auto;
+  }
+}
